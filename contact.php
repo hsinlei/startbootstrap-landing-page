@@ -4,17 +4,17 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'wics@lists.cs.brown.edu';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'wics@lists.cs.brown.edu';
 
 // subject of the email
 $subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
+$fields = array('email' => 'Email', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
